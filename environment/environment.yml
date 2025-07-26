@@ -1,0 +1,24 @@
+name: gnn_workspace
+channels: 
+- conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - jupyter
+  - jupytext
+  - pip
+  # Data Science Packages
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  # Chemistry Packages
+  - rdkit
+  # ML Packages
+  - pytorch
+  - torch-geometric
+  - scikit-optimize
+  - scikit-learn
+  # Testing
+  - pytest
+  - pytest-cov
