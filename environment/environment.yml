@@ -19,6 +19,7 @@ dependencies:
   - torch-geometric
   - scikit-optimize
   - scikit-learn
+  - optuna
   # Testing
   - pytest
   - pytest-cov
