@@ -14,6 +14,8 @@ dependencies:
   - seaborn
   # Chemistry Packages
   - rdkit
+  - Bio
+  - p2smi
   # ML Packages
   - pytorch
   - torch-geometric
